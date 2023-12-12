@@ -100,13 +100,13 @@ font-size: 35px;
     justify-content: center;
 }
 .bar{
-    border: 1px solid #000;
-    padding: 10px;
+    /* border: 1px solid #000; */
+    padding: 15px;
     margin: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 1.5em;
+    border-radius: 1em;
 }
 .bar-p1{
     display: flex;
@@ -119,12 +119,40 @@ font-size: 35px;
     justify-content: center;
     align-items: center;
 }
+.color-1{
+    background-color: #FDF6F6;
+}
+.color-2{
+    background-color: #FDFDF0;
+}
+.color-3{
+    background-color: #F1FBFA;
+}
+.color-4{
+    background-color: #F3F3FF;
+}
+.reac{
+    color: red;
+}
+.mem{
+    color: #E7D391;
+}
+.ver{
+    color: green;
+}
+.vis{
+    color:#5A5E90
+}
+
 .button{
     font-size: 20px; 
     padding: 14px 90px; 
-    background-color: #303B57; 
+    background-color: #4924CE; 
     color: #fff; 
     border: none; 
     border-radius: 1.5em; 
     cursor: pointer; 
+}
+.button:hover{
+    background-color: #082f60;
 }
